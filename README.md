@@ -93,7 +93,7 @@ This is illustrated in the screenshots below
 
 #### Search for the UDF transformation
 
-<img src='https://github.com/vbalasu/PythonUDF/raw/master/media/pythonudf_choose.png' width=500px align="left" />
+<img src="https://github.com/vbalasu/PythonUDF/raw/master/media/pythonudf_choose.png" width=500px align="left" />
 
 
 #### PythonUDF: mask
