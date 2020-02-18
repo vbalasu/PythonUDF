@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: trifacta-base-udf
+Implementation-Version: 6.8.1
+Build-Number: 369
+Implementation-Vendor-Id: com.trifacta
+Implementation-Vendor: Trifacta, Inc.
+
