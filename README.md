@@ -69,10 +69,11 @@ def test(*args): # Simply converts to uppercase, but illustrates that multiple s
 The workflow for developing a Python UDF is as follows:
 
 - Build the python function. The function should take a string parameter, and return a string as output
-- Test the function locally. It is recommended to use Jython for testing if possible, otherwise CPython is ok
+- Test the function locally. It is recommended to use Jython for testing if possible, otherwise CPython or Jupyter is ok
 - Add your function code to PythonUDF.py
 - Deploy the updated PythonUDF.py (including your code) to the Trifacta server in the `/udfs` folder
 - Restart Trifacta services: `sudo service trifacta restart`
+- Refresh the browser. Clear the browser cache if necessary
 
 The above assumes that the PythonUDF jar file is already installed on the Trifacta server. If not, please see installation instructions further below.
 
