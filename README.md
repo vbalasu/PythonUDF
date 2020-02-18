@@ -111,8 +111,9 @@ To install PythonUDF on a Trifacta server, follow these steps:
 - Connect to the Trifacta server using `ssh`
 - (Optional) Clone the Github repository to your home directory: `git clone git@github.com:vbalasu/PythonUDF.git`
 - Create a new directory to hold the udfs: `sudo mkdir /udfs`
-- Copy [PythonUDF.jar](https://github.com/vbalasu/PythonUDF/raw/master/PythonUDF.jar) and [PythonUDF.py](https://github.com/vbalasu/PythonUDF/raw/master/PythonUDF.py) to the `/udfs` directory
+- Copy [PythonUDF.jar](https://github.com/vbalasu/PythonUDF/raw/master/PythonUDF.jar), [PythonUDF.py](https://github.com/vbalasu/PythonUDF/raw/master/PythonUDF.py) and [PythonUDF.sh](https://github.com/vbalasu/PythonUDF/raw/master/PythonUDF.sh) to the `/udfs` directory
 - Change permissions to make `trifacta` user the owner of this folder and its contents: `sudo chown -R trifacta:trifacta /udfs`
+- Make sure you are able to run `/udfs/PythonUDF.sh` from the command line. This is a hello world script that tests the jar
 - Log into Trifacta web as an Administrator and go to Admin Settings
 - Modify the following admin settings:
   - udf-service.udfPackages: `com.trifacta.trifactaudfs`
